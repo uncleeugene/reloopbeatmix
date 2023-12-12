@@ -4,7 +4,7 @@ This repo contains Mixxx mapping for Reloop Beatmix gen. 1 DJ controller. It is 
 
 ## What's Reloop Beatmix?
 
-It is a mid-sized twpo decker DJ controller meant to manipulate DJ software such as Traktor or Mixxx. It is quite old and now discontinued but still a good balance of functions and size. It works with Virtual DJ, it is supported in Traktor Pro. Here's the product page: [https://www.reloop.com/reloop-beatmix](https://www.reloop.com/reloop-beatmix)
+It is a mid-sized two decker DJ controller meant to manipulate DJ software such as Traktor or Mixxx. It is quite old and now discontinued but still a good balance of functions and size. It works with Virtual DJ, it is supported in Traktor Pro. Here's the product page: [https://www.reloop.com/reloop-beatmix](https://www.reloop.com/reloop-beatmix)
 
 ![](assets/20231212_224348_225067_Reloop_TP.png)
 
@@ -14,7 +14,7 @@ This mapping files are adding support for this hardware to Mixxx DJ software. Mi
 
 ## Functions implemented
 
-All, except sampler controls. There are several changes in comparsion to what manufaturer had in mind when creating the device. Here's the list of things:
+All, except sampler controls. There are several changes in comparsion to what manufaturer had in mind. Here's the list:
 
 1. Scratch toggle buttons on the controller are confusing. There's no problem with buttons itself but LEDs are controlled by hardware itself. There is a way to catch button click, but i didn't find the way to control LEDs, so it seems impossible to make these LEDs correspond correctly with current mode of operation. So i just gave up on these buttons. Instead, scratch mode switched and indicated with Shift-Load buttons which lights i could actually toggle.
 2. Second jog mode buttons (w search icon) have a function. Those make jogs four times more sensitive when enabled. This does not affect scratch, mut makes search and tempo correction much faster.
@@ -29,6 +29,14 @@ All, except sampler controls. There are several changes in comparsion to what ma
 10. Navigation knob scrolls through a library. Clicking the knob will expand library window.
     Shift-knob will scroll through a library tree, and Shift-click will expand/collapse tree entries.
 11. All second layer functions are accessible with Shift buttons. Note, there are two shift buttons and each one is responsible for its side.
+
+## How to use?
+
+Download the mapping:
+
+[20231212_230248_ReloopBeatmix.zip](assets/20231212_230248_ReloopBeatmix.zip)
+
+Unpack it to Mixxx 'controllers' folder as described in [Mixxx manual](https://manual.mixxx.org/2.3/ru/chapters/controlling_mixxx#installing-a-mapping-from-the-forum).
 
 ## Why no samplers?
 
